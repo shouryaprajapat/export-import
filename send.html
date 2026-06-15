@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send Enquiry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="img.png" alt="Logo">
+    </div>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="indext.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="import.html">Import Service</a></li>
+            <li><a href="export.html">Export Service</a></li>
+            <li><a href="ourservice.html">Our Services</a></li>
+            <li><a href="send.html">Send Enquiry</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </div>
+</header>
+
+
+
+<section class="enquiry-section">
+
+    <div class="enquiry-container">
+
+        <div class="enquiry-info">
+
+            <h2>Let's Grow Together</h2>
+
+            <p>
+                Whether you need Import Services, Export Solutions,
+                Logistics Support, Customs Clearance or Global Trade
+                Assistance, our experienced team is ready to help.
+            </p>
+
+            <div class="info-card">
+                <h3>📞 Call Us</h3>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="info-card">
+                <h3>📧 Email Us</h3>
+                <p>info@yourcompany.com</p>
+            </div>
+
+            <div class="info-card">
+                <h3>🌍 Global Trade</h3>
+                <p>Import & Export Support Worldwide</p>
+            </div>
+
+        </div>
+
+        <div class="enquiry-form">
+
+            <form>
+
+                <input type="text" placeholder="Full Name" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <input type="tel" placeholder="Phone Number" required>
+
+                <input type="text" placeholder="Country">
+
+                <select>
+                    <option>Select Service</option>
+                    <option>Import Service</option>
+                    <option>Export Service</option>
+                    <option>Custom Clearance</option>
+                    <option>Logistics Support</option>
+                </select>
+
+                <textarea rows="6" placeholder="Write Your Enquiry"></textarea>
+
+                <button type="submit">
+                    Send Enquiry
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+function toggleMenu() {
+    document.getElementById("nav").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
+```

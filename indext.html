@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import Export Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <!-- Logo Space -->
+    <div class="logo">
+        <img src="img.png" alt="" >
+    </div>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li class="dropdown">
+                <a href="import.html">Import Service</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="#export.html">Export Service</a>
+                <li><a href="ourservice.html">Our Services</a></li>
+            </li>
+
+            <li><a href="send.html">Send Enquiry</a></li>
+            
+        </ul>
+    </nav>
+
+     
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+
+      
+
+       <h1 class="typing-text">
+    Connecting Businesses Across The World
+</h1>
+
+        <p>
+            Reliable import and export services for international trade,
+            logistics, sourcing, customs clearance, and worldwide shipping.
+        </p>
+
+       
+    </div>
+</section>
+
+
+
+<script>
+function toggleMenu() {
+    document.getElementById("nav").classList.toggle("active");
+    
+}
+</script>
+
+</body>
+</html>
